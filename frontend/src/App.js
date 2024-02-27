@@ -1,10 +1,11 @@
 import React from 'react'
+import Header from './components/Layouts/Header/Header'
 
 function App(){
     return(
-        <div>
-            <h1>App</h1>
-        </div>
+        <>
+            <Header/>
+        </>
     )
 }
 
